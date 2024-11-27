@@ -19,7 +19,7 @@ body {
     border-radius: 5px;
     background-color: #c2c7cb;
     font-size: fit-content;
-    overflow: scroll;
+    padding: 10px;
   }
   
   #history {
