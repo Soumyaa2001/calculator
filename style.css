@@ -83,10 +83,41 @@ body {
     font-size: 20px;
     background-color: #9477af;
   }
-  
-  .copyright p {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 1rem;
-  }
-  
+  /* Footer */
+#footer {
+  background-color: rgb(59, 55, 55);
+  color: aqua;
+}
+#footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 160px;
+  text-align: center;
+}
+
+#footer a {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+#footer a:hover {
+  opacity: 0.6;
+}
+
+#footer .social {
+  margin: 0.9rem 0;
+}
+#footer .social img {
+  width: 20px;
+  height: 20px;
+}
+
+#footer .social a {
+  margin: 0 0.5rem;
+}
+
+#footer p {
+  font-size: 0.8rem;
+}
